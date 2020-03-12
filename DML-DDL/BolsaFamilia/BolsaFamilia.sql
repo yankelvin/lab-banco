@@ -1,0 +1,10 @@
+CREATE SCHEMA BolsaFamilia;
+
+CREATE TABLE BolsaFamilia.Dados (
+    ID INT NOT NULL,
+    DATA_REFERENCIA DATETIME NOT NULL,
+    VALOR DECIMAL NOT NULL,
+    QTD_BENEFICIADOS INT NOT NULL
+)
+
+Select * from BolsaFamilia.Dados;
